@@ -1,7 +1,18 @@
 aid: manabio
 name: Mana.bio
-description: Mana.bio is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mana.bio is an AI-driven drug-delivery biotechnology company specializing in
+  programmable lipid nanoparticles (LNPs) for nucleic-acid therapeutics and
+  vaccines, including mRNA, DNA, and CRISPR-based gene therapy. The company runs
+  a closed-loop design-build-test-learn platform that uses machine-learning models
+  to design novel LNP candidates, synthesizes dozens of formulations weekly via
+  high-throughput automation, screens them with comprehensive assays, and feeds
+  results back to continuously improve its models — targeting precise, optimized
+  extrahepatic delivery. Mana.bio also operates Mina (ChatLNP), an AI agent that
+  helps scientists explore curated literature, predict LNP properties, and optimize
+  formulations, plus an LNP patents / freedom-to-operate map. The company is backed
+  by a16z. Mana.bio publishes no first-party developer or product API; its only
+  public agent surface is a Wix Site MCP endpoint and an llms.txt on its site.
 url: https://raw.githubusercontent.com/api-evangelist/manabio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +20,53 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Drug Delivery
+- Lipid Nanoparticles
+- Gene Therapy
+- Artificial Intelligence
+- Machine Learning
+- Genetic Medicine
+- mRNA
+image: https://static.wixstatic.com/media/d7e63b_1d6eb702d51a4cdaad0396e94610de66~mv2.jpg/v1/fit/w_2500,h_1330,al_c/d7e63b_1d6eb702d51a4cdaad0396e94610de66~mv2.jpg
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
+common:
+- type: Website
+  url: https://www.mana.bio/
+- type: Blog
+  url: https://www.mana.bio/news
+- type: Publications
+  url: https://www.mana.bio/publications
+- type: Jobs
+  url: https://www.mana.bio/jobs
+- type: MCPServer
+  name: Mana.bio Site MCP
+  url: mcp/manabio-mcp.yml
+- type: LLMsTxt
+  url: llms/manabio-llms.txt
+- type: DomainSecurity
+  url: security/manabio-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
